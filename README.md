@@ -1,6 +1,22 @@
-# Goonstation Hangman Tool
-Simple RShiny app for crate hangman solving with the Goonstation wordset.
+# Goonstation Tools
+Run the app here: http://18.117.159.168:3838/
 
-![alt text](https://github.com/E-Y-M/GoonstationTools/blob/master/Preview_Image.png)
+## Hangman solver
+Crate hangman solving with the Goonstation wordset
 
-Run it here: http://18.117.159.168:3838/
+![alt text](https://github.com/E-Y-M/GoonstationTools/blob/master/Preview%20images/Hangman.png)
+
+## Telesci calibration
+Compute telesci offsets
+
+![alt text](https://github.com/E-Y-M/GoonstationTools/blob/master/Preview%20images/TSci%20calibration.png)
+
+## Telesci conversion
+Using offsets, convert raw coordinates
+
+![alt text](https://github.com/E-Y-M/GoonstationTools/blob/master/Preview%20images/TSci%20conversion.png)
+
+## Chemistry
+View/add/edit chemgroups. Note that the app allows ALL users to upload/edit chemgroups via a connected Google Sheet. Also the formatting is kinda funky.
+
+![alt text](https://github.com/E-Y-M/GoonstationTools/blob/master/Preview%20images/Chemistry.png)
