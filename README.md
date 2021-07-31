@@ -1,5 +1,5 @@
 # Goonstation Tools
-Run the app here: http://18.117.159.168:3838/
+Run the app here: http://18.117.159.168:3838/ (via Amazon EC2)
 
 ## Hangman solver
 Crate hangman solving with the Goonstation wordset
