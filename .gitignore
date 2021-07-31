@@ -1,0 +1,7 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+**/rsconnect
+Hangman_tool/rsconnect
+Function testing script.R
