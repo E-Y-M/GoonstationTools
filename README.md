@@ -1,5 +1,5 @@
 # Goonstation Tools
-Run the app here: http://18.117.159.168:3838/ (via Amazon EC2)
+Run the app here: http://18.117.159.168:3838/
 
 Or, if you have R installed, you can download **app_folder** and run a local copy via app.R
 
