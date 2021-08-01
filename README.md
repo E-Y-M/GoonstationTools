@@ -19,6 +19,6 @@ Using offsets, convert raw coordinates
 ![alt text](https://github.com/E-Y-M/GoonstationTools/blob/master/Preview%20images/TSci%20conversion.png)
 
 ## Chemistry
-View/add/edit chemgroups. Note that the app allows ALL users to upload/edit chemgroups via a connected Google Sheet. Also the formatting is kinda funky.
+HIGHLY experimental. View/add/edit chemgroups. Note that changes made by any/all users are all synced to a connected Google Sheet. Also the formatting is kinda funky.
 
 ![alt text](https://github.com/E-Y-M/GoonstationTools/blob/master/Preview%20images/Chemistry.png)
