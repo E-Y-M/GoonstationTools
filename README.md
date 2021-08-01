@@ -1,5 +1,5 @@
 # Goonstation Tools
-Run the app here: http://18.117.159.168:3838/
+Run the app here: http://192.168.0.18:3838/GoonstationTools-master/app_folder/
 
 Or, if you have R installed, you can download **app_folder** and run a local copy via app.R
 
