@@ -3,6 +3,6 @@
 .RData
 .Ruserdata
 **/rsconnect
-Hangman_tool/rsconnect
+app_folder/rsconnect
 Function testing script.R
 **/.secrets
