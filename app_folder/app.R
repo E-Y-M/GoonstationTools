@@ -351,9 +351,13 @@ server <- function(input, output, session) {
                     }
                 }
             }
-        } else {
+        } else if (length(test_letters) == 0 & length(store$wrong_letters) == 0) {
             store$candidates = store$candidates %>% 
                 filter(str_count(word) == as.numeric(input$n_letters))
+        } else {
+          store$candidates = store$candidates %>% 
+            filter(str_count(word) == as.numeric(input$n_letters) &
+                     !grepl(paste(store$wrong_letters, collapse = "|"), word))
         }
     
         #if (length(store$wrong_letters) == 0) {
