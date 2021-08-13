@@ -1,10 +1,8 @@
 message("initialising googlesheets")
 
 # set variables ----
-email <- ""
-SHEET_ID <- ""
-sheet_name <- ""
-sheet_tabs <- c()
+email <- "eric7mah@gmail.com"
+SHEET_ID <- "1V1T2Jml1OyxDyIY71GQtv-8EG6A66g7qnyGCKLPj6yk"
 
 # load packages ----
 suppressPackageStartupMessages({
@@ -19,16 +17,16 @@ gs4_auth()
 
 # get sheet for this app ----
 ## this takes a long time, so it's better to set the SHEET_ID above
-if (is.null(SHEET_ID)) {
-  message(sprintf("finding %s", sheet_name))
-  sheet <- gs4_find(sheet_name)
-  if (length(sheet$id) == 0) {
-    message(sprintf("creating %s", sheet_name))
-    SHEET_ID <- gs4_create(sheet_name, sheets = sheet_tabs)
-  } else {
-    SHEET_ID <- sheet$id
-  }
-}
+#if (is.null(SHEET_ID)) {
+#  message(sprintf("finding %s", sheet_name))
+#  sheet <- gs4_find(sheet_name)
+#  if (length(sheet$id) == 0) {
+#    message(sprintf("creating %s", sheet_name))
+#    SHEET_ID <- gs4_create(sheet_name, sheets = sheet_tabs)
+#  } else {
+#    SHEET_ID <- sheet$id
+#  }
+#}
 
 message(sprintf("SHEET_ID: %s", SHEET_ID))
 

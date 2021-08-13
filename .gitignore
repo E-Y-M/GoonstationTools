@@ -5,4 +5,4 @@
 **/rsconnect
 app_folder/rsconnect
 Function testing script.R
-**/.secrets
+#**/.secrets

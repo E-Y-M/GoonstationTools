@@ -10,7 +10,7 @@ suppressPackageStartupMessages({
 
 # functions ----
 source("scripts/func.R") # helper functions
-#source("scripts/gs4.R")
+source("scripts/gs4.R")
 
 sheet_append <- function(ss, data, sheet = 1) {
     # always use faster append on deployed apps
@@ -53,8 +53,8 @@ sheet_append <- function(ss, data, sheet = 1) {
 }
 
 # setup ----
-gs4_deauth()
-#gs4_auth(cache = ".secrets", email = "")
+#gs4_deauth()
+gs4_auth(cache = ".secrets", email = "eric7mah@gmail.com")
 words_data = read.csv("data/hangman_processed.csv", fileEncoding = 'UTF-8-BOM')
 google_sheet_id = "1V1T2Jml1OyxDyIY71GQtv-8EG6A66g7qnyGCKLPj6yk"
 
