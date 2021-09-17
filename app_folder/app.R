@@ -231,8 +231,8 @@ ui <- dashboardPage(
             id = "tabs",
             menuItem("Hangman solver", tabName = "hangman_tab", icon = icon("archive")),
             menuItem("TSci calibration", tabName = "calib_tab", icon = icon("cog")),
-            menuItem("TSci conversion", tabName = "custom_tab", icon = icon("map-pin")),
-            menuItem("Chemistry", tabName = "chem_tab", icon = icon("vial"))
+            menuItem("TSci conversion", tabName = "custom_tab", icon = icon("map-pin"))
+            #menuItem("Chemistry", tabName = "chem_tab", icon = icon("vial"))
         )
     ),
     dashboardBody(
@@ -246,8 +246,8 @@ ui <- dashboardPage(
         tabItems(
             hangman_tab,
             calib_tab,
-            custom_tab,
-            chem_tab
+            custom_tab
+            #chem_tab
         )
     )
 )
